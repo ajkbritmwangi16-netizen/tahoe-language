@@ -1,0 +1,3 @@
+program = { line } ;
+line = instruction | block ;
+instruction = "/>" text "</" ;
