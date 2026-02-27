@@ -1,0 +1,22 @@
+{
+      "scopeName": "source.tahoe",
+        "patterns": [
+            {
+                  "name": "keyword.control.tahoe",
+                        "match": "</>Tahoe</>|/<main>/|//<main//>|</end>"
+                            },
+                                {
+                                      "name": "keyword.other.tahoe",
+                                            "match": "/>print"
+                                                },
+                                                    {
+                                                          "name": "string.quoted.double.tahoe",
+                                                                "match": "\"[^\"]*\""
+                                                                    },
+                                                                        {
+                                                                              "name": "comment.line.tahoe",
+                                                                                    "match": "//.*"
+                                                                                        }
+                                                                                          ]
+                                                                                          }
+}
