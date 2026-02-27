@@ -1,3 +1,10 @@
 program = { line } ;
 line = instruction | block ;
 instruction = "/>" text "</" ;
+program     = { line } ;
+line        = instruction | block ;
+instruction = "/>" text "</" ;
+block       = open_block { instruction } close_block ;
+
+open_block  = "/<main>/" ;
+close_block = "//<main//>" ;
